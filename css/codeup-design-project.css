@@ -1,3 +1,31 @@
 *{
+
     font-family: 'Anton', sans-serif;
+}
+
+body {
+    background-color: rgb(238, 236, 236);
+}
+
+.dot_1, .dot_2, .dot_3, .dot_4 {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    /*display: inline-block;*/
+    /*display: flex;*/
+
+}
+
+
+.dot_1 {
+    background-color: #E6563B;
+}
+.dot_2 {
+    background: #DEA03D;
+}
+.dot_3 {
+    background: #7DB06D;
+}
+.dot_4 {
+    background: #00ABA9;
 }
