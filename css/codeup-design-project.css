@@ -7,13 +7,41 @@ body {
     background-color: rgb(238, 236, 236);
 }
 
+.container {
+
+}
+
 .dot_1, .dot_2, .dot_3, .dot_4 {
     height: 105px;
     width: 105px;
     border-radius: 50%;
-    /*display: inline-block;*/
-    /*display: flex;*/
+    border: 6px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.dotSmall_1, .dotSmall_2, .dotSmall_3, .dotSmall_4 {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    /*border: 6px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+
+
+hr {
+    border: 2px solid lightgrey;
+}
+
+.card {
+    background-color: rgb(238, 236, 236);
+    border: none;
 }
 
 
@@ -28,4 +56,31 @@ body {
 }
 .dot_4 {
     background: #00ABA9;
+}
+
+.dotSmall_1 {
+    background-color: #E6563B;
+}
+.dotSmall_2 {
+    background: #DEA03D;
+}
+.dotSmall_3 {
+    background: #7DB06D;
+}
+.dotSmall_4 {
+    background: #00ABA9;
+}
+
+.text-able {
+    font-family: 'Abel', sans-serif;
+}
+
+#main {
+    background-color: rgb(238, 236, 236);
+}
+
+@media (min-width: 992px) {
+    .text-center {
+
+    }
 }
