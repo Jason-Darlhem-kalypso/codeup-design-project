@@ -7,6 +7,13 @@ body {
     background-color: rgb(238, 236, 236);
 }
 
+img {
+    float: left;
+    /*width:  100px;*/
+    /*height: 200px;*/
+    object-fit: cover;
+}
+
 .container {
 
 }
