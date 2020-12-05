@@ -41,7 +41,7 @@ hr {
 
 .card {
     background-color: rgb(238, 236, 236);
-    border: none;
+
 }
 
 
@@ -79,6 +79,9 @@ hr {
     background-color: rgb(238, 236, 236);
 }
 
+#mid-sec {
+
+}
 @media (min-width: 992px) {
     .text-center {
 
