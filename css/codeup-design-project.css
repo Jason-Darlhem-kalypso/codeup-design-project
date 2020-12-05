@@ -7,6 +7,13 @@ body {
     background-color: rgb(238, 236, 236);
 }
 
+/*img {*/
+/*    float: left;*/
+/*    !*width:  100px;*!*/
+/*    !*height: 200px;*!*/
+/*    object-fit: cover;*/
+/*}*/
+
 .container {
 
 }
@@ -15,7 +22,7 @@ body {
     height: 105px;
     width: 105px;
     border-radius: 50%;
-    border: 6px solid white;
+    border: 4px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +48,8 @@ hr {
 
 .card {
     background-color: rgb(238, 236, 236);
-    border: none;
+    border:none;
+
 }
 
 
@@ -79,6 +87,9 @@ hr {
     background-color: rgb(238, 236, 236);
 }
 
+#mid-sec {
+
+}
 @media (min-width: 992px) {
     .text-center {
 
