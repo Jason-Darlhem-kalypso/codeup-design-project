@@ -1,21 +1,26 @@
-.antonFont{
 
-    font-family: 'Anton', sans-serif;
-}
+
 
 body {
     background-color: rgb(238, 236, 236);
 }
 
-/*img {*/
-/*    float: left;*/
-/*    !*width:  100px;*!*/
-/*    !*height: 200px;*!*/
-/*    object-fit: cover;*/
-/*}*/
+hr {
+    border: 3px solid #E6E6E6;
+}
 
-.container {
+.bottomBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+
+}
+
+
+.dotRow{
+    display: flex;
+    flex-direction: row;
 }
 
 .dot_1, .dot_2, .dot_3, .dot_4 {
@@ -28,30 +33,6 @@ body {
     align-items: center;
 
 }
-
-.dotSmall_1, .dotSmall_2, .dotSmall_3, .dotSmall_4 {
-    height: 18px;
-    width: 18px;
-    border-radius: 50%;
-    /*border: 6px solid black;*/
-    display: flex;
-    justify-content: center;
-    align-items:center;
-
-}
-
-
-
-hr {
-    border: 2px solid lightgrey;
-}
-
-.card {
-    background-color: rgb(238, 236, 236);
-    border:none;
-
-}
-
 
 .dot_1 {
     background-color: #E6563B;
@@ -79,41 +60,63 @@ hr {
     background: #00ABA9;
 }
 
-.text-able {
+
+
+
+
+.text-able1 {
     font-family: 'Abel', sans-serif;
 }
 
-#main {
-    background-color: rgb(238, 236, 236);
+
+
+.text-able{
+
+    font-family: 'Anton', sans-serif;
 }
 
-#mid-sec {
+
+
+.dotSmall_1, .dotSmall_2, .dotSmall_3, .dotSmall_4 {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    /*border: 6px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 11px;
+    font-weight:bold;
 
 }
+
+
+.imgBorder {
+    border:8px solid #E6E6E6;
+
+}
+
+
+
+
 
 
 
 /*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-
-}
+@media (max-width: 575.98px) { ... }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    #secondCond {
 
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-}
+@media (min-width: 768px) and (max-width: 991.98px) { }
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) { }
